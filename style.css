@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+h1{
+    letter-spacing: 10px; 
+    text-align: center;
+}
+.loader{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+}
+.loader img{
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+.gallery{
+    margin : 10px,30%
+}
+.gallery img{
+    width:100%;
+}
+
+@media screen and (max-width : 600px){
+    .gallery{
+        margin:10px,1%;
+    }
+}
